@@ -46,6 +46,7 @@ int main()
 					print_result(operation_char, num1, num2, add_numbers(num1, num2));
 					cout << "\nPerform another operation? Enter 'y' to continue, 'exit' to quit program." << endl;
 					cin >> user_input;
+					break;
 				}
 				case '-':
 				{
